@@ -1,0 +1,18 @@
+zipp 
+zstandard==0.23.0
+filterpy==1.4.5
+scipy==1.15.2
+seaborn==0.13.2
+ultralytics==8.3.111
+ultralytics-thop==2.0.14
+tqdm==4.67.1
+torch==2.6.0
+torchvision==0.21.0
+pillow==11.2.1
+numpy==2.1.1
+opencv-python==4.11.0.86
+pandas==2.2.3
+python-box==6.0.2
+ensure==1.0.2
+
+-e .
