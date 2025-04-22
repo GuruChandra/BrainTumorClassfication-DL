@@ -5,3 +5,8 @@ data_ingestion:
   source_URL: https://github.com/GuruChandra/DataSet/raw/refs/heads/main/brain_tumor_mri_dataset.zip
   local_data_file: artifacts/data_ingestion/brain_tumor_mri_dataset.zip
   unzip_dir: artifacts/data_ingestion
+
+prepare_basemodel:
+  root_dir: artifacts/perpare_basemodel
+  base_model_path: artifacts/perpare_basemodel/base_model_resnet18.pth
+  updated_base_model_path: artifacts/perpare_basemodel/updated_base_model.pth

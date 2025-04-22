@@ -16,5 +16,9 @@ logging.basicConfig(
         logging.StreamHandler(sys.stdout)
     ]
 )
-
+# Set UTF-8 encoding explicitly for the stream handler
+for handler in logging.root.handlers:
+    if isinstance(handler, logging.StreamHandler):
+        handler.stream.reconfigure(encoding='utf-8')
+        
 logger = logging.getLogger("cnnClassifierLogger")
